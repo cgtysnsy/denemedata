@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.box {
+  width: 200px;
+  border: solid 1px black;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  max-width: 150px;
+  max-height: 112px;
+}
+button {
+  width: 100px;
+  border: none;
+  background: green;
+  color: white;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+.footer {
+  width: 100%;
+  text-align: center;
+  background: lightgray;
+  border-top: 1px solid lightgray;
+}
